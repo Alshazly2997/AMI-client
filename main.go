@@ -13,9 +13,9 @@ import (
 
 var (
 	//You have to set your AMI username, secret, and IP address here
-	username = flag.String("username", "username", "AMI username")
-	secret   = flag.String("secret", "secret", "AMI secret")
-	host     = flag.String("host", "172.0.0.1:5038", "AMI host address")
+	username = flag.String("username", "alshazly", "AMI username")
+	secret   = flag.String("secret", "6571", "AMI secret")
+	host     = flag.String("host", "192.168.42.247:5038", "AMI host address")
 )
 
 func main() {
